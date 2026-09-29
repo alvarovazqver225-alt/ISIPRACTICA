@@ -261,13 +261,23 @@ sin una fuente confirmada.
 
 ## 9. Glosario
 
-Este apartado contiene las definiciones vigentes de los términos del dominio
-que pueden interpretarse de más de una manera. Cada entrada indicará su fuente
-para conservar la procedencia de la definición. El catálogo de requisitos podrá
-enlazar a los términos de esta sección, pero no los definirá de nuevo.
+Este apartado contiene las definiciones vigentes de los términos del dominio que pueden interpretarse de más de una manera. Cada entrada indicará su fuente para conservar la procedencia de la definición. El catálogo de requisitos podrá enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+| **Enfermedad Inflamatoria Intestinal (EII)** | Conjunto de patologías crónicas del aparato digestivo que afectan a los usuarios principales de la plataforma y condicionan sus necesidades nutricionales y de comunidad. | Acta de captura de requisitos generales (Título y Sección 1) |
+| **Paciente** | Persona registrada en la plataforma que padece o convive con la enfermedad inflamatoria intestinal, para quien se orientan la búsqueda de recetas adaptadas, contenidos de salud y la interacción en el foro. | Acta de captura de requisitos generales (Sección 1.1 y 2) |
+| **Cuidador** | Usuario registrado que brinda apoyo a uno o varios pacientes y que requiere la autorización expresa del paciente para vincularse a su cuenta y acceder a sus datos de salud. | Acta de captura de requisitos generales (Sección 1.2 y 2) |
+| **Nutricionista (acreditado)** | Profesional de la salud (médico o nutricionista) que ha acreditado su condición profesional en la plataforma mediante documentación en línea. Cuenta con permisos para validar recetas, publicar directamente recetas validadas y redactar publicaciones de salud. | Acta de captura de requisitos generales (Sección 1.3, 3 y 5) |
+| **Coordinador** | Único rol de la plataforma responsable de administrar y moderar el foro, revisar reportes de contenido inapropiado y aprobar la creación de cuentas de cuidadores y nutricionistas. | Acta de captura de requisitos generales (Sección 4) y Acta de acuerdos técnicos y operativos (Sección 2.3.2 y 2.4.1) |
+| **Receta adaptada** | Receta cuyo perfil e ingredientes coinciden con las alergias y restricciones alimentarias de un paciente, sin que el sistema realice modificaciones automáticas de ingredientes o cantidades. | Acta de captura de requisitos generales (Sección 3) |
+| **Receta propuesta** | Receta sugerida por un paciente o cuidador que permanece pendiente de la revisión y validación por parte de un nutricionista antes de considerarse validada. | Acta de captura de requisitos generales (Sección 3) |
+| **Receta validada** | Receta creada directamente por un nutricionista o propuesta por un usuario y aprobada posteriormente por un nutricionista, garantizando su adecuación técnica. | Acta de captura de requisitos generales (Sección 3) y Acta de acuerdos técnicos y operativos (Sección 2.4.1) |
+| **Información de salud** | Conjunto opcional de datos proporcionados por el paciente sobre sus restricciones alimentarias, alergias y condición de salud, utilizados exclusivamente para filtrar o mostrar recetas adecuadas. | Acta de captura de requisitos generales (Sección 1.1, 2 y 7.1) |
+| **Publicación de salud** | Artículo breve redactado exclusivamente por nutricionistas acreditados sobre alimentación y hábitos saludables, dirigido a pacientes y cuidadores. | Acta de captura de requisitos generales (Sección 5) |
+| **Asociación (Paciente-Cuidador)** | Vínculo formal y autorizado expresamente por un paciente que habilita a un cuidador a acceder a su información de salud autorizada mientras la relación se mantenga vigente. | Acta de captura de requisitos generales (Sección 1.2 y 2) y Acta de acuerdos técnicos y operativos (Sección 2.2.3) |
+| **Reporte de contenido** | Notificación enviada por un usuario registrado para alertar al coordinador sobre la presencia de un contenido potencialmente inapropiado en la plataforma. | Acta de captura de requisitos generales (Sección 4) y Acta de acuerdos técnicos y operativos (Sección 2.4.1) |
+| **Distintivo profesional** | Elemento visual (como un icono de estrella) mostrado junto al nombre de un nutricionista para certificar la veracidad de su condición profesional e intervenciones. | Acta de captura de requisitos generales (Sección 1.3 y 8) |
 
 ## 10. Modelos de análisis
 
