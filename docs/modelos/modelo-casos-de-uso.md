@@ -140,6 +140,18 @@ Los identificadores remiten al [catálogo canónico de requisitos](../requisitos
 | UC-09 Consultar ayuda | UR-12; FR-172, parte de FR-173, FR-174, FR-175, FR-176 y FR-177 | NFR-010 | Ayuda sobre las funciones de E1, con navegación, elementos visuales, pausa, reanudación, cierre y adaptación a la sección. |
 | UC-10 Recorrer bienvenida | UR-12; FR-207 | NFR-010 | Recorrido del primer acceso, que se puede omitir y es independiente de la ayuda contextual. |
 | UC-11 y sus inclusiones | UR-01 y UR-02; FR-003 y FR-016 | — | Envío compartido de los mensajes de verificación y restablecimiento. El servicio externo participa en el envío. |
+| UC-12 Registrar datos fisiológicos | UR-05; FR-041 y FR-042 | — | Introducción de medidas físicas y resultados de laboratorio. Unidades, fechas y correcciones de errores según acta de UR-05. |
+| UC-13 Registrar notas de síntomas | UR-05; FR-053 | — | Límite estricto de 500 caracteres por nota sobre el estado de salud diario. |
+| UC-14 Consultar historial de salud | UR-05; FR-049, FR-050 y FR-216 | — | Visualización de historial y gráficas. El cuidador solo puede consultar datos específicos compartidos, sin acceso automático. |
+| UC-15 Exportar datos de salud | UR-05; FR-047 y FR-048 | — | Descarga de la información de salud del paciente en formatos PDF y CSV. |
+| UC-16 Conceder autorización de acceso | UR-05; FR-045, FR-046 y FR-201 | — | Requiere verificaciones previas de la cuenta del profesional. El acceso a datos está separado de la relación general de cuidado. |
+| UC-17 Revocar autorización de acceso | UR-05; FR-198 y FR-208 | — | La revocación impide nuevas consultas, incluyendo las de sesiones ya iniciadas. Acceso retirado automáticamente al terminar asociación. |
+| UC-18 Invitar a profesional por correo | UR-05 | — | Envío de invitación para registro. Según acta UR-05, el envío no concede acceso automático a los datos de salud. |
+| UC-19 Crear receta | UR-06; FR-054, FR-056, FR-057, FR-058, FR-059, FR-060 y FR-192 | — | Las propuestas de pacientes/cuidadores quedan pendientes (FR-204). Las de nutricionistas se publican directamente (FR-055). Uso del alias público. |
+| UC-20 Modificar receta propia | UR-06; FR-061 | — | Edición de recetas. Los efectos de la edición sobre recetas ya validadas están pendientes de aclaración. |
+| UC-21 Eliminar receta propia | UR-06; FR-062 y FR-063 | — | Eliminación permanente del catálogo. Requiere confirmación previa para evitar borrados accidentales. |
+| UC-22 Validar receta propuesta | UR-06; FR-066, FR-191, FR-204 y FR-205 | — | Operación denegada a perfiles sin aprobar. Se muestra insignia distintiva tras validación clínica. |
+| UC-23 Buscar y filtrar recetas | UR-08; FR-085, FR-086, FR-087, FR-088, FR-089, FR-090, FR-091, FR-092, FR-093, FR-094, FR-095, FR-096, FR-099, FR-103 y FR-119 | — | Requiere registro e inicio de sesión. El filtro de restricciones dietéticas cruza ingredientes con alergias o intolerancias. |
 | UC-31 Aprobar cuenta de cuidador o nutricionista | UR-13; FR-181; condición profesional de UR-01 en FR-191 | NFR-010 | El Coordinador aprueba cuentas de cuidador y nutricionista. La aprobación de la documentación profesional condiciona las funciones de publicación del nutricionista. |
 | UC-32 Suspender cuenta de usuario activa | UR-13; FR-182 | NFR-010 | El Coordinador puede suspender cuentas de usuario activas. Los efectos concretos de la suspensión siguen pendientes de aclaración. |
 | UC-33 Eliminar cuenta de usuario | UR-13; FR-183 y FR-211 | NFR-010 | El Coordinador puede eliminar cuentas. El contenido publicado por un cuidador se conserva tras eliminar su cuenta. |
