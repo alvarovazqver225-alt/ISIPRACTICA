@@ -69,6 +69,12 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-09 | Consultar ayuda | Consultar las instrucciones y los temas de ayuda de las funciones seleccionadas. | Principal: Usuario. |
 | UC-10 | Recorrer bienvenida | Conocer las funciones básicas mediante el recorrido del primer acceso, con la posibilidad de omitirlo. | Principal: Usuario registrado. |
 | UC-11 | Enviar correo electrónico | Enviar el mensaje que necesita el caso de uso que lo incluye. | Apoyo: Servicio de correo electrónico. No se asigna un actor principal independiente. |
+| UC-12 | Registrar datos de salud | Introducir manualmente datos fisiológicos, resultados de laboratorio y notas de síntomas o estado de salud diario. | Principal: Paciente. |
+| UC-13 | Consultar historial de salud | Visualizar el historial de datos fisiológicos, aplicar filtros por tipo de dato, consultar gráficas y exportar la información en formatos PDF y CSV. | Principal: Paciente, Cuidador, Nutricionista. |
+| UC-14 | Gestionar autorizaciones de acceso | Autorizar a nutricionistas específicos o cuidadores para acceder a los datos compartidos, revocar accesos, o invitar a un nutricionista sin cuenta. | Principal: Paciente. Apoyo: Servicio de correo electrónico. |
+| UC-15 | Crear y gestionar recetas | Crear, editar y eliminar recetas. Las propuestas quedan pendientes de validación; las de nutricionistas se publican directamente. | Principal: Usuario registrado, Nutricionista. |
+| UC-16 | Validar receta propuesta | Revisar una receta propuesta por un paciente o cuidador y validarla para que se publique oficialmente. | Principal: Nutricionista. |
+| UC-17 | Buscar y filtrar recetas | Buscar recetas mediante palabras clave y aplicar filtros (ingredientes, alergias o intolerancias del perfil, dificultad, tiempo). | Principal: Usuario registrado. |
 | UC-31 | Aprobar cuenta de cuidador o nutricionista | Aprobar una cuenta solicitada con perfil de cuidador o nutricionista, conforme a las condiciones del perfil. | Principal: Coordinador. |
 | UC-32 | Suspender cuenta de usuario activa | Suspender una cuenta de usuario que se encuentra activa. | Principal: Coordinador. |
 | UC-33 | Eliminar cuenta de usuario | Eliminar una cuenta de usuario y conservar el contenido publicado cuando corresponda a un cuidador. | Principal: Coordinador. |
